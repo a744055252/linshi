@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".ui.common.MainActivity">
+
+	<item
+		android:id="@+id/id_action_main"
+		android:orderInCategory="100"
+		android:title="首页"
+		app:showAsAction="always"/>
+
+	<item
+		android:id="@+id/id_action_download"
+		android:orderInCategory="100"
+		android:title="附近的人"
+		app:showAsAction="always"/>
+
+	<item
+		android:id="@+id/id_action_work"
+		android:orderInCategory="100"
+		android:title="任务"
+		app:showAsAction="always"/>
+
+	<item
+		android:id="@+id/id_action_my"
+		android:orderInCategory="100"
+		android:title="个人中心"
+		app:showAsAction="always"/>
+
+</menu>
